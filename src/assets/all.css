@@ -1,0 +1,40 @@
+html,
+body,
+#app{
+    /* height: 100%; */
+    /* width: 1600px; */
+    position: relative;
+    /* width: 100%;    */
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin: 0 auto;
+}
+/* @media screen and (min-width:1600px) and (max-width:1920px) { */
+    /* #app { */
+        /* width: 1600px; */
+    /* } */
+/* } */
+/*  */
+/* @media screen and (min-width:1920px) { */
+    /* #app { */
+        /* width: 1900px; */
+    /* } */
+/* } */
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.c.el-input.el-input--small:focus {
+    border-color: #292D30 !important;
+}
+
+.el-input__inner:focus {
+    border-color: #292D30 !important;
+}
+.el-select-dropdown__item.selected{
+    color: gray;
+}
